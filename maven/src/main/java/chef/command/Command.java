@@ -1,4 +1,4 @@
-package src.chef.command;
+package chef.command;
 
 public interface Command {
     void execute();

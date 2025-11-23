@@ -1,9 +1,10 @@
-package src.chef.command;
+package chef.command;
 
 public class ExitCommand implements Command {
+
     @Override
     public void execute() {
-        System.out.println("-> Вихід з програми...");
+        System.out.println("👋 Завершення роботи...");
         System.exit(0);
     }
 
